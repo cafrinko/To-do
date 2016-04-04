@@ -1,0 +1,29 @@
+#show-descript {
+  display: none;
+}
+
+.output {
+  display: none;
+}
+
+.list-output{
+  cursor: pointer;
+  color: #0088cc;
+
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.list-output:hover {
+  text-decoration: underline;
+}
+
+.aside {
+  font-size: 15px;
+}
+
+li {
+  font-size: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Make a To Do List</h1>
+      <h2>Add a List item:</h2>
+      <form id="list">
+        <div class="form-group">
+          <label for="item">Item:</label>
+          <input type="text" class="form-control" id="item">
+        </div>
+        <div class="form-group">
+          <label for="description">Longer Description (if needed):</label>
+          <input type="text" class="form-control" id="description">
+        </div>
+        <div class="form-group">
+          <label for="due">When its Due:</label>
+          <input type="text" class="form-control" id="due">
+        </div>
+        <button type="submit" class="btn">Submit this Item</button>
+      </form>
+      <div class="output">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>To Do:<br><span class="aside">(click for the description)</span></h2>
+            <ul><span class="listy list-output"></span></ul>
+          </div>
+          <div class="col-md-4">
+            <h2>Due:</h2>
+            <ul><span class="listy due"></span><ul>
+          </div>
+          <div class="col-md-4" id="show-descript">
+            <h2>Description:</h2>
+            <ul><span class="description listy"></span></ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
